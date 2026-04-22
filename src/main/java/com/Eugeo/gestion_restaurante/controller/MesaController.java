@@ -1,4 +1,4 @@
-package com.Eugeo.gestion_restaurante.controller;
+package com.Eugeo.gestion_restaurante.Controller;
 
 public class MesaController {
     

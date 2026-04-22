@@ -5,11 +5,11 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.Eugeo.gestion_restaurante.Entity.Mesa;
+import com.Eugeo.gestion_restaurante.Entity.DetallePedido;
 
 @Repository
-public interface MesaRepository extends JpaRepository<Mesa, Long>{
+public interface DetallePedidoRepository extends JpaRepository<DetallePedido, Long>{
 
-    List<Mesa> findByEstado(String estado);
-    
+    List<DetallePedido> findByPedidoId(Long pedidoId);
 }
+

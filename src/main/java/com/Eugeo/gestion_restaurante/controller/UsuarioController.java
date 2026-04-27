@@ -31,28 +31,5 @@ public class UsuarioController {
         return service.findAll();
     }
 
-    @GetMapping("/{id}")
-    public Usuario findById(@PathVariable Long id){
-        return service.findById(id);
-    }
-
-    @GetMapping("/email")
-    public Usuario findByEmail(@RequestParam String email){
-        return service.findByEmail(email);
-    }
-
-    @PostMapping
-    public Usuario create(@RequestBody Usuario usuario){
-        return service.create(usuario);
-    }
-
-    @PutMapping("/{id}")
-    public Usuario update(@PathVariable Long id, @RequestBody Usuario usuario){
-        return service.update(id, usuario);
-    }
-
-    @DeleteMapping("/{id}")
-    public void delete(@PathVariable Long id){
-        service.delete(id);
-    }
+    
 }

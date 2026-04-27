@@ -7,8 +7,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.gestionrestaurante.gestion.entity.Pedido;
-import com.gestionrestaurante.gestion.repository.PedidoRepository;
+import com.Eugeo.gestion_restaurante.entity.Pedido;
+import com.Eugeo.gestion_restaurante.repository.PedidoRepository;
 
 import lombok.RequiredArgsConstructor;
 

@@ -28,23 +28,5 @@ public class RolController {
         return service.findAll();
     }
 
-    @GetMapping("/{id}")
-    public Rol findById(@PathVariable Long id){
-        return service.findById(id);
-    }
-
-    @PostMapping
-    public Rol create(@RequestBody Rol rol){
-        return service.create(rol);
-    }
-
-    @PutMapping("/{id}")
-    public Rol update(@PathVariable Long id,@RequestBody Rol rol){
-        return service.update(id, rol);
-    }
-
-    @DeleteMapping("/{id}")
-    public void delete(@PathVariable Long id){
-        service.delete(id);
-    }
+    
 }

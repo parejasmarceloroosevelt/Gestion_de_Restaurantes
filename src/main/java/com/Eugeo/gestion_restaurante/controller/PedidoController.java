@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.gestionrestaurante.gestion.entity.Pedido;
-import com.gestionrestaurante.gestion.service.PedidoService;
+import com.Eugeo.gestion_restaurante.entity.Pedido;
+import com.Eugeo.gestion_restaurante.service.PedidoService;
 
 import lombok.RequiredArgsConstructor;
 
@@ -27,31 +27,6 @@ public class PedidoController {
     @GetMapping
     public List<Pedido> findAll() {
         return service.findAll();
-    }
-
-    @GetMapping("/{id}")
-    public Pedido findById(@PathVariable Long id) {
-        return service.findById(id);
-    }
-
-    @GetMapping("/estado")
-    public List<Pedido> findByEstado(@RequestParam String estado) {
-        return service.findByEstado(estado);
-    }
-
-    @PostMapping
-    public Pedido create(@RequestBody Pedido pedido) {
-        return service.create(pedido);
-    }
-
-    @PutMapping("/{id}")
-    public Pedido update(@PathVariable Long id, @RequestBody Pedido pedido) {
-        return service.update(id, pedido);
-    }
-
-    @DeleteMapping("/{id}")
-    public void delete(@PathVariable Long id) {
-        service.delete(id);
     }
 
 }

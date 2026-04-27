@@ -1,4 +1,4 @@
-package com.gestionrestaurante.gestion.entity;
+package com.Eugeo.gestion_restaurante.Entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

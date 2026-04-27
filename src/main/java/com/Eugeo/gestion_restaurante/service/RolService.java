@@ -1,4 +1,4 @@
-package com.gestionrestaurante.gestion.service;
+package com.Eugeo.gestion_restaurante.Service;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.gestionrestaurante.gestion.entity.Rol;
-import com.gestionrestaurante.gestion.repository.RolRepository;
+import com.Eugeo.gestion_restaurante.Entity.Rol;
+import com.Eugeo.gestion_restaurante.Repository.RolRepository;
 
 import lombok.RequiredArgsConstructor;
 

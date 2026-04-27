@@ -1,11 +1,11 @@
-package com.Eugeo.gestion_restaurante.repository;
+package com.Eugeo.gestion_restaurante.Repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.Eugeo.gestion_restaurante.entity.Pedido;
+import com.Eugeo.gestion_restaurante.Entity.Pedido;
 
 
 @Repository

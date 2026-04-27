@@ -1,11 +1,12 @@
-package com.gestionrestaurante.gestion.repository;
+package com.Eugeo.gestion_restaurante.Repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.gestionrestaurante.gestion.entity.Usuario;
+import com.Eugeo.gestion_restaurante.Entity.Usuario;
+
 
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Long>{

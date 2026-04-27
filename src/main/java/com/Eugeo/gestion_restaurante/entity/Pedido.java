@@ -1,4 +1,4 @@
-package com.Eugeo.gestion_restaurante.entity;
+package com.Eugeo.gestion_restaurante.Entity;
 
 import java.time.LocalDateTime;
 

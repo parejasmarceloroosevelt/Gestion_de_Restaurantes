@@ -1,4 +1,4 @@
-package com.Eugeo.gestion_restaurante.service;
+package com.Eugeo.gestion_restaurante.Service;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -7,8 +7,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.Eugeo.gestion_restaurante.entity.Pedido;
-import com.Eugeo.gestion_restaurante.repository.PedidoRepository;
+import com.Eugeo.gestion_restaurante.Entity.Pedido;
+import com.Eugeo.gestion_restaurante.Repository.PedidoRepository;
 
 import lombok.RequiredArgsConstructor;
 
